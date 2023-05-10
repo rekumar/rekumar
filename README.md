@@ -33,13 +33,13 @@ _Python, linear programming with Google OR-Tools_
 Robots are all the rage in materials science these days, as they can work around the clock with the high precision needed for science experiments. However, many systems are not used at their full capacity -- they do one thing at a time, which is like waiting for your chicken to cook before you chop your vegetables. Roboflo is a scheduling program that uses linear optimization to schedule jobs across a bunch of different robots/tools, allowing us to use our robots to their maximum potential! 
 
 
-<p style="text-align:center;">
-<img src="images/roboflo/exampleschedule.jpg"  width="100%">
+<p align="center">
+  <img src="images/roboflo/exampleschedule.jpg"  width="800px">
 </p>
 In the schedule above, each row corresponds to an individual hardware "actor" within the robotic lab. The bars within the plot represent when each actor is being used, and each color represents a different sample being passed from one actor to the next. Below is a gif of the robots following the schedule above.
 
-<p style="text-align:center;">
-<img src="images/roboflo/roboflo_in_action.gif"  style="width:100%; max-width: 400px;">
+<p align="center">
+  <img src="images/roboflo/roboflo_in_action.gif"  width="400px">
 </p>
 
 ---
@@ -51,25 +51,26 @@ Solar cells present a pretty unique engineering challenge -- we need to make a h
 
 We put state-of-the-art solar cells in chambers that simulate the weather, then measured how the cells degrade over time. We took weekly "pictures" of each cell using cameras that show us the water content and electronic performance of these solar cells. You can see some of those pictures below.
 
-<p style="text-align:center;">
-<img src="images/ward/Imaging.png"  style="width:100%; max-width: 500px;">
+<p align="center">
+  <img src="images/ward/Imaging.png"  width="500px">
 </p>
 
 We found two issues: cells cracking, and increasing electrical resistance. I used image processing (scikit-image) to align these ~4000 images and identify the formation of cracks. You can see cracks as dark areas in some of the "electrical performance" images above. The figure below shows a heatmap of where cracks formed, stratified by the cell's packaging type (i.e. whether it's protected by glass or a polymeric backsheet).
-<p style="text-align:center;">
-<img src="images/ward/Figure 4.png"  style="width:100%; max-width: 400px;">
+<p align="center">
+  <img src="images/ward/Figure 4.png"  width="400px">
 </p>
 <!-- ![Cracks in a solar cell](images/ward/Figure%204.png) -->
 
 I then segmented out the _uncracked_ regions of the cells and tracked how their performance evolved over time. We found that certain types of cells gain resistance faster than others (bad), and that this is correlated with the amount of water that gets into the cell! 
 
-<p style="text-align:center;">
-<img src="images/ward/CrackSegmentation.png"   style="width:100%; max-width: 500px;">
+<p align="center">
+  <img src="images/ward/CrackSegmentation.png" width="500px">
 </p>
 
 Finally, I fit a response surface model (Python statsmodels) to the resistance changes in the uncracked areas to quantify the influence of water and temperature on the rate of resistance increase. Below you can see the response surface for each type of cell. The results for individual cells are shown with the scatter points, and the 95% confidence interval of the gradient of the response surface is shaded in the inset plots. We got these two-dimensional confidence intervals by bootstrap sampling within the variance of the parameters of our response surface model. While both types of cells were influenced by water content, only one result was statistically significant!
-<p style="text-align:center;">
-<img src="images/ward/rs_gradient.png"  style="width:100%; max-width: 300px;">
+
+<p align="center">
+  <img src="images/ward/rs_gradient.png"  width="300px">
 </p>
 <!-- ![Response surface of water content and temperature on resistance increase](images/ward/rs_gradient.png) -->
 
