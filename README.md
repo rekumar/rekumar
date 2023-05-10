@@ -16,6 +16,6 @@ Depending on who you ask, I'm the "coding guy", the "stats guy", or the "robot g
 
 With ten years of industrial and academic research experience, I've honed my ability to quickly grasp complex domain-specific problems and effectively implement the right tools for the task at hand. Sometimes this is building a dashboard to share results with our collaborators, others it is using active learning to drive a >$2b microscope at Argonne National Lab. My work has earned >$1m in business and >$10m in government funding. At the core of my success are curiosity, statistical modeling, and an engineering mindset.
 
-A big believer in open source, I maintain code that supports automated labs across the country. These projects include [graph databases for experimental data](www.github.com/rekumar/labgraph), [job scheduling](www.github.com/rekumar/roboflo) for collaborative robots, and graph optimizers to [plan volume transfers for complex liquid handling routines](www.github.com/rekumar/mixsol).
+A big believer in open source, I maintain code that supports automated labs across the country. These projects include [graph databases for experimental data](https://www.github.com/rekumar/labgraph), [job scheduling](www.github.com/rekumar/roboflo) for collaborative robots, and graph optimizers to [plan volume transfers for complex liquid handling routines](www.github.com/rekumar/mixsol).
 
 I'm actively seeking Data Scientist roles to apply my expertise and passion for data science, engineering, and leadership. Let's build the future together!
