@@ -1,7 +1,7 @@
-<div align="center">
+<!-- <div align="center">
     <img align="center" src="https://github-readme-stats.vercel.app/api?username=rekumar&show_icons=true&count_private=true&hide_border=true" alt="rekumar's Github Stats"></img>
 </div>
-
+ -->
 ---
 
 # About Me
