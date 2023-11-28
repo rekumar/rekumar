@@ -15,6 +15,7 @@
 Depending on who you ask, I'm the "coding guy", the "stats guy", or the "robot guy" These days I am building [self-driving laboratories](https://newscenter.lbl.gov/2023/04/17/meet-the-autonomous-lab-of-the-future/) that autonomously plan experiments, execute them with robots, then analyze the results in a closed loop. My robots have found new materials for solar cells and batteries!
 
 A big believer in open source, I maintain code that supports automated labs across the country. These projects include [graph databases for experimental data](https://www.github.com/rekumar/labgraph), [job scheduling](https://www.github.com/rekumar/roboflo) for collaborative robots, and graph optimizers to [plan volume transfers for complex liquid handling routines](https://www.github.com/rekumar/mixsol).
+
 ---
 
 # Some of my Projects
